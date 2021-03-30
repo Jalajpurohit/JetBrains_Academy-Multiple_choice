@@ -1,4 +1,3 @@
-# Multiple choiceProject: Simple Chatty Bot
 ## Objective
 Your bot can ask anything you want, but there are two rules for your output:
 
