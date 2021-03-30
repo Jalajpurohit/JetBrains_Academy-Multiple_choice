@@ -2,44 +2,45 @@
 ## Objective
 Your bot can ask anything you want, but there are two rules for your output:
 
-the line with the test should end with the question mark character;<br>
-an option starts with a digit followed by the dot (1., 2., 3., 4.)<br>
-If a user enters an incorrect answer, the bot may print a message:
+1. The line with the test should end with the question mark character;<br>
+2. an option starts with a digit followed by the dot (1., 2., 3., 4.)<br>
+3. If a user enters an incorrect answer, the bot may print a message:
 
-Please, try again.
-The program should stop on the correct answer and print Congratulations, have a nice day! at the end.
+Please, try again.<br>
+The program should stop on the correct answer and print:<br>
+Congratulations, have a nice day! <br> at the end.
 
 ## Example
 The greater-than symbol followed by a space (> ) represents the user input. Note that it's not part of the input.
 
-Example 1: a dialogue with the final version of your bot
+### Example 1: a dialogue with the final version of your bot
 
-Hello! My name is Aid.
-I was created in 2020.
-Please, remind me your name.
-> Max
-What a great name you have, Max!
-Let me guess your age.
-Enter remainders of dividing your age by 3, 5 and 7.
-> 1 
-> 2
-> 1
-Your age is 22: that's a good time to start programming!
-Now I will prove to you that I can count to any number you want.
-> 3
-0 !
-1 !
-2 !
-3 !
-Let's test your programming knowledge.
-Why do we use methods?
-1. To repeat a statement multiple times.
-2. To decompose a program into several small subroutines.
-3. To determine the execution time of a program.
-4. To interrupt the execution of a program.
-> 4
-Please, try again.
-> 2
-Completed, have a nice day!
-Congratulations, have a nice day!
+Hello! My name is Aid.<br>
+I was created in 2020.<br>
+Please, remind me your name.<br>
+> Max<br>
+What a great name you have, Max!<br>
+Let me guess your age.<br>
+Enter remainders of dividing your age by 3, 5 and 7.<br>
+> 1 <br>
+> 2<br>
+> 1<br>
+Your age is 22: that's a good time to start programming!<br>
+Now I will prove to you that I can count to any number you want.<br>
+> 3<br>
+0 !<br>
+1 !<br>
+2 !<br>
+3 !<br>
+Let's test your programming knowledge.<br>
+Why do we use methods?<br>
+1. To repeat a statement multiple times.<br>
+2. To decompose a program into several small subroutines.<br>
+3. To determine the execution time of a program.<br>
+4. To interrupt the execution of a program.<br>
+> 4<br>
+Please, try again.<br>
+> 2<br>
+Completed, have a nice day!<br>
+Congratulations, have a nice day!<br>
 The program must end with the Congratulations, have a nice day! message.
